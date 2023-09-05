@@ -1,0 +1,13 @@
+[Unit]
+Description=vRobo API Service
+After=network.target
+
+[Service]
+ExecStart=/home/adarsh/vroboservice/vrobo.py
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=adarsh
+
+[Install]
+WantedBy=multi-user.target

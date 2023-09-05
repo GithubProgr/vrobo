@@ -1,0 +1,3 @@
+import usbcmd
+
+usbcmd.sendCmd()

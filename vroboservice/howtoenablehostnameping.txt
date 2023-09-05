@@ -1,0 +1,1 @@
+add ethernet mac address to dhcpclient file. Refer dhcp flie in this folder
